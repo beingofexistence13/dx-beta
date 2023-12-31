@@ -40,4 +40,4 @@ Visit https://ui.beingofexistence.com/docs/cli to view the documentation.
 
 ## License
 
-Licensed under the [MIT license](https://github.com/beingofexistence/ui/blob/main/LICENSE.md).
+Licensed under the [MIT license](https://github.com/beingofexistence/dx/blob/main/LICENSE.md).

@@ -29,7 +29,7 @@ export const docsConfig: DocsConfig = {
     },
     {
       title: "GitHub",
-      href: "https://github.com/beingofexistence/ui",
+      href: "https://github.com/beingofexistence/dx",
       external: true,
     },
     {

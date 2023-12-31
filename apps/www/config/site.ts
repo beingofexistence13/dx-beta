@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "beingofexistence/ui",
+  name: "beingofexistence/dx",
   url: "https://ui.beingofexistence.com",
   ogImage: "https://ui.beingofexistence.com/og.jpg",
   description:

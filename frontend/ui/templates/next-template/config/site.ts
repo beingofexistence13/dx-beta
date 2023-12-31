@@ -12,7 +12,7 @@ export const siteConfig = {
   ],
   links: {
     twitter: "https://twitter.com/beingofexistence",
-    github: "https://github.com/beingofexistence/ui",
+    github: "https://github.com/beingofexistence/dx",
     docs: "https://ui.beingofexistence.com",
   },
 }

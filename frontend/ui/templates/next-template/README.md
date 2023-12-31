@@ -19,4 +19,4 @@ npx create-next-app -e https://github.com/beingofexistence/next-template
 
 ## License
 
-Licensed under the [MIT license](https://github.com/beingofexistence/ui/blob/main/LICENSE.md).
+Licensed under the [MIT license](https://github.com/beingofexistence/dx/blob/main/LICENSE.md).

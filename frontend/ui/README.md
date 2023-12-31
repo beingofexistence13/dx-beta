@@ -1,4 +1,4 @@
-# beingofexistence/ui
+# beingofexistence/dx
 
 Accessible and customizable components that you can copy and paste into your apps. Free. Open Source. **Use this to build your own component library**.
 
@@ -14,4 +14,4 @@ Please read the [contributing guide](/CONTRIBUTING.md).
 
 ## License
 
-Licensed under the [MIT license](https://github.com/beingofexistence/ui/blob/main/LICENSE.md).
+Licensed under the [MIT license](https://github.com/beingofexistence/dx/blob/main/LICENSE.md).
