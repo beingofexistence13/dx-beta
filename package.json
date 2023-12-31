@@ -5,8 +5,8 @@
   "license": "MIT",
   "type": "module",
   "author": {
-    "name": "shadcn",
-    "url": "https://twitter.com/shadcn"
+    "name": "beingofexistence",
+    "url": "https://twitter.com/beingofexistence"
   },
   "workspaces": [
     "apps/*",
@@ -15,11 +15,11 @@
   ],
   "scripts": {
     "build": "turbo run build",
-    "build:cli": "turbo --filter=shadcn-ui build",
+    "build:cli": "turbo --filter=beingofexistence-dx build",
     "build:registry": "pnpm --filter=www build:registry",
     "dev": "turbo run dev --parallel",
-    "dev:cli": "turbo --filter=shadcn-ui dev",
-    "start:cli": "pnpm --filter=shadcn-ui start:dev",
+    "dev:cli": "turbo --filter=beingofexistence-dx dev",
+    "start:cli": "pnpm --filter=beingofexistence-dx start:dev",
     "lint": "turbo run lint",
     "lint:fix": "turbo run lint:fix",
     "preview": "turbo run preview",

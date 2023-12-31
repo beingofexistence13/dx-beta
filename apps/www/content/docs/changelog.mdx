@@ -6,7 +6,7 @@ toc: false
 
 ## December 2023 - New components, CLI and more
 
-We've added new components to shadcn/ui and made a lot of improvements to the CLI.
+We've added new components to beingofexistence/ui and made a lot of improvements to the CLI.
 
 Here's a quick overview of what's new:
 
@@ -49,7 +49,7 @@ Build resizable panel groups and layouts with this `<Resizable />` component.
 
 ### Sonner
 
-Another one by [emilkowalski\_](https://twitter.com/emilkowalski_). The last toast component you'll ever need. Sonner is now availabe in shadcn/ui.
+Another one by [emilkowalski\_](https://twitter.com/emilkowalski_). The last toast component you'll ever need. Sonner is now availabe in beingofexistence/ui.
 
 <ComponentPreview name="sonner-demo" />
 
@@ -57,7 +57,7 @@ Another one by [emilkowalski\_](https://twitter.com/emilkowalski_). The last toa
 
 This has been one of the most requested features. You can now configure a custom Tailwind prefix and the cli will automatically prefix your utility classes when adding components.
 
-This means you can now easily add shadcn/ui components to existing projects like Docusaurus, Nextra...etc. A drop-in for your existing design system with no conflict. 🔥
+This means you can now easily add beingofexistence/ui components to existing projects like Docusaurus, Nextra...etc. A drop-in for your existing design system with no conflict. 🔥
 
 ```tsx /tw-/
 <AlertDialog className="tw-grid tw-gap-4 tw-border tw-bg-background tw-shadow-lg" />
@@ -133,7 +133,7 @@ I've been working on a new CLI for the past few weeks. It's a complete rewrite. 
 ### `init`
 
 ```bash
-npx shadcn-ui@latest init
+npx beingofexistence-dx@latest init
 ```
 
 When you run the `init` command, you will be asked a few questions to configure `components.json`:
@@ -175,7 +175,7 @@ This means you can now use the CLI with any directory structure including `src` 
 ### `add`
 
 ```bash
-npx shadcn-ui@latest add
+npx beingofexistence-dx@latest add
 ```
 
 The `add` command is now much more capable. You can now add UI components but also import more complex components (coming soon).
@@ -185,7 +185,7 @@ The CLI will automatically resolve all components and dependencies, format them 
 ### `diff` (experimental)
 
 ```bash
-npx shadcn-ui diff
+npx beingofexistence-dx diff
 ```
 
 We're also introducing a new `diff` command to help you keep track of upstream updates.
@@ -195,7 +195,7 @@ You can use this command to see what has changed in the upstream repository and 
 Run the `diff` command to get a list of components that have updates available:
 
 ```bash
-npx shadcn-ui diff
+npx beingofexistence-dx diff
 ```
 
 ```txt
@@ -210,7 +210,7 @@ The following components have updates available:
 Then run `diff [component]` to see the changes:
 
 ```bash
-npx shadcn-ui diff alert
+npx beingofexistence-dx diff alert
 ```
 
 ```diff /pl-12/

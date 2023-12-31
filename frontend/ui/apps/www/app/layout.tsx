@@ -30,11 +30,11 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "shadcn",
-      url: "https://shadcn.com",
+      name: "beingofexistence",
+      url: "https://beingofexistence.com",
     },
   ],
-  creator: "shadcn",
+  creator: "beingofexistence",
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     images: [siteConfig.ogImage],
-    creator: "@shadcn",
+    creator: "@beingofexistence",
   },
   icons: {
     icon: "/favicon.ico",

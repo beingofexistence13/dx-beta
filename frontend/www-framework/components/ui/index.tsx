@@ -106,7 +106,7 @@ import {
   HoverCardContent,
   HoverCardTrigger,
 } from "@/components/ui/hover-card"
-import { InputShadcnUi } from "@/components/ui/input"
+import { InputbeingofexistenceUi } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import {
   Menubar,
@@ -295,7 +295,7 @@ export {
   HoverCard,
   HoverCardContent,
   HoverCardTrigger,
-  InputShadcnUi,
+  InputbeingofexistenceUi,
   Label,
   Menubar,
   MenubarCheckboxItem,

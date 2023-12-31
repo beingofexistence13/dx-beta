@@ -109,8 +109,8 @@ export const products: { title: string; href: string; description: string }[] =
       description: "The most hottest React framwork out there made by vercel",
     },
     {
-      title: "Shadcn",
-      href: "https://ui.shadcn.com/",
+      title: "beingofexistence",
+      href: "https://ui.beingofexistence.com/",
       description: "My favorite UI component library(Highly Recommended)",
     },
   ]

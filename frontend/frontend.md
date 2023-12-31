@@ -9,7 +9,7 @@ game-consoles
 ### some frontend inspirations
 1. dub
 2. nextui
-3. shadcn-ui
+3. beingofexistence-dx
 4. tailwindcss
 
 # descriptions

@@ -49,7 +49,7 @@ export default function InputForm() {
             <FormItem>
               <FormLabel>Username</FormLabel>
               <FormControl>
-                <Input placeholder="shadcn" {...field} />
+                <Input placeholder="beingofexistence" {...field} />
               </FormControl>
               <FormDescription>
                 This is your public display name.

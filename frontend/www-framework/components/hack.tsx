@@ -1,7 +1,7 @@
 /* eslint-disable tailwindcss/classnames-order */
 "use client";
 
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger, Alert, AlertDescription, AlertDialog, AlertDialogAction, AlertDialogCancel, Button as ButtonShadcnUi, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger, AlertTitle, AspectRatio, Avatar, AvatarFallback, AvatarImage, Badge, Calendar, CardContent, CardDescription, CardTitle, Checkbox, Collapsible, CollapsibleContent, CollapsibleTrigger, Command, CommandDialog, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList, CommandSeparator, CommandShortcut, ContextMenu, ContextMenuCheckboxItem, ContextMenuContent, ContextMenuGroup, ContextMenuItem, ContextMenuLabel, ContextMenuPortal, ContextMenuRadioGroup, ContextMenuRadioItem, ContextMenuSeparator, ContextMenuShortcut, ContextMenuSub, ContextMenuSubContent, ContextMenuSubTrigger, ContextMenuTrigger, Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger, DropdownMenu, DropdownMenuCheckboxItem, DropdownMenuContent, DropdownMenuGroup, DropdownMenuItem, DropdownMenuLabel, DropdownMenuPortal, DropdownMenuRadioGroup, DropdownMenuRadioItem, DropdownMenuSeparator, DropdownMenuShortcut, DropdownMenuSub, DropdownMenuSubContent, DropdownMenuSubTrigger, DropdownMenuTrigger, Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage, HoverCard, HoverCardContent, HoverCardTrigger, InputShadcnUi, Label, Menubar, MenubarCheckboxItem, MenubarContent, MenubarGroup, MenubarItem, MenubarLabel, MenubarMenu, MenubarPortal, MenubarRadioGroup, MenubarRadioItem, MenubarSeparator, MenubarShortcut, MenubarSub, MenubarSubContent, MenubarSubTrigger, MenubarTrigger, NavigationMenu, NavigationMenuContent, NavigationMenuIndicator, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger, NavigationMenuViewport, Popover, PopoverContent, PopoverTrigger, Progress, RadioGroup, RadioGroupItem, ScrollArea, ScrollBar, Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectSeparator, SelectTrigger, SelectValue, Separator, Sheet, SheetClose, SheetContent, SheetDescription, SheetFooter, SheetHeader, SheetTitle, SheetTrigger, Skeleton, Slider, Switch, Table, TableBody, TableCaption, TableCell, TableFooter, TableHead, TableHeader, TableRow, Tabs, TabsContent, TabsList, TabsTrigger, Textarea, Toast, ToastAction, ToastClose, ToastDescription, ToastProvider, ToastTitle, ToastViewport, Toaster, Toggle, Tooltip, TooltipContent, TooltipProvider, TooltipTrigger, badgeVariants, buttonVariants, navigationMenuTriggerStyle, toast, toggleVariants, useFormField, useToast, type ToastActionElement, type ToastProps } from "@/components/ui"
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger, Alert, AlertDescription, AlertDialog, AlertDialogAction, AlertDialogCancel, Button as ButtonbeingofexistenceUi, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger, AlertTitle, AspectRatio, Avatar, AvatarFallback, AvatarImage, Badge, Calendar, CardContent, CardDescription, CardTitle, Checkbox, Collapsible, CollapsibleContent, CollapsibleTrigger, Command, CommandDialog, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList, CommandSeparator, CommandShortcut, ContextMenu, ContextMenuCheckboxItem, ContextMenuContent, ContextMenuGroup, ContextMenuItem, ContextMenuLabel, ContextMenuPortal, ContextMenuRadioGroup, ContextMenuRadioItem, ContextMenuSeparator, ContextMenuShortcut, ContextMenuSub, ContextMenuSubContent, ContextMenuSubTrigger, ContextMenuTrigger, Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger, DropdownMenu, DropdownMenuCheckboxItem, DropdownMenuContent, DropdownMenuGroup, DropdownMenuItem, DropdownMenuLabel, DropdownMenuPortal, DropdownMenuRadioGroup, DropdownMenuRadioItem, DropdownMenuSeparator, DropdownMenuShortcut, DropdownMenuSub, DropdownMenuSubContent, DropdownMenuSubTrigger, DropdownMenuTrigger, Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage, HoverCard, HoverCardContent, HoverCardTrigger, InputbeingofexistenceUi, Label, Menubar, MenubarCheckboxItem, MenubarContent, MenubarGroup, MenubarItem, MenubarLabel, MenubarMenu, MenubarPortal, MenubarRadioGroup, MenubarRadioItem, MenubarSeparator, MenubarShortcut, MenubarSub, MenubarSubContent, MenubarSubTrigger, MenubarTrigger, NavigationMenu, NavigationMenuContent, NavigationMenuIndicator, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger, NavigationMenuViewport, Popover, PopoverContent, PopoverTrigger, Progress, RadioGroup, RadioGroupItem, ScrollArea, ScrollBar, Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectSeparator, SelectTrigger, SelectValue, Separator, Sheet, SheetClose, SheetContent, SheetDescription, SheetFooter, SheetHeader, SheetTitle, SheetTrigger, Skeleton, Slider, Switch, Table, TableBody, TableCaption, TableCell, TableFooter, TableHead, TableHeader, TableRow, Tabs, TabsContent, TabsList, TabsTrigger, Textarea, Toast, ToastAction, ToastClose, ToastDescription, ToastProvider, ToastTitle, ToastViewport, Toaster, Toggle, Tooltip, TooltipContent, TooltipProvider, TooltipTrigger, badgeVariants, buttonVariants, navigationMenuTriggerStyle, toast, toggleVariants, useFormField, useToast, type ToastActionElement, type ToastProps } from "@/components/ui"
 import { ArrowDownToLine, Bot, BrainCircuit, Calculator, CalendarIcon, Check, ChevronsUpDown, ClipboardCheck, ClipboardCopy, ClipboardList, ClipboardPaste, Cog, CreditCard, Plus, QrCode, Settings, Settings2, Shield, Smile, User, X, } from "lucide-react";
 import { AsYouType, getCountryCallingCode, parsePhoneNumber, } from "libphonenumber-js";
 import { Button, Card, CardFooter, Image as ImageNext, Input, } from "@nextui-org/react";
@@ -207,7 +207,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
     let result = firstLetter + lastLetter;
     return result;
   }
-  const handleButtonShadcnUiClick = () => {
+  const handleButtonbeingofexistenceUiClick = () => {
     if (fileInputRef.current) {
       fileInputRef.current.click();
     }
@@ -458,14 +458,14 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       <div className="flex items-center justify-between px-1">
                         <h4 className="text-sm font-semibold">Bloom</h4>
                         <CollapsibleTrigger asChild>
-                          <ButtonShadcnUi
+                          <ButtonbeingofexistenceUi
                             variant="ghost"
                             size="sm"
                             className="ronded-lg w-9 border p-0"
                           >
                             <ChevronsUpDown className="h-4 w-4" />
                             <span className="sr-only">Toggle</span>
-                          </ButtonShadcnUi>
+                          </ButtonbeingofexistenceUi>
                         </CollapsibleTrigger>
                       </div>
                       <div className="flex items-center justify-between rounded-md border px-4 py-3 font-mono text-sm">
@@ -509,14 +509,14 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       <div className="flex items-center justify-between px-1">
                         <h4 className="text-sm font-semibold">Sunrays</h4>
                         <CollapsibleTrigger asChild>
-                          <ButtonShadcnUi
+                          <ButtonbeingofexistenceUi
                             variant="ghost"
                             size="sm"
                             className="ronded-lg w-9 border p-0"
                           >
                             <ChevronsUpDown className="h-4 w-4" />
                             <span className="sr-only">Toggle</span>
-                          </ButtonShadcnUi>
+                          </ButtonbeingofexistenceUi>
                         </CollapsibleTrigger>
                       </div>
                       <div className="flex items-center justify-between rounded-md border px-4 py-3 font-mono text-sm">
@@ -547,14 +547,14 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       <div className="flex items-center justify-between px-1">
                         <h4 className="text-sm font-semibold">Capture</h4>
                         <CollapsibleTrigger asChild>
-                          <ButtonShadcnUi
+                          <ButtonbeingofexistenceUi
                             variant="ghost"
                             size="sm"
                             className="ronded-lg w-9  border p-0"
                           >
                             <ChevronsUpDown className="h-4 w-4" />
                             <span className="sr-only">Toggle</span>
-                          </ButtonShadcnUi>
+                          </ButtonbeingofexistenceUi>
                         </CollapsibleTrigger>
                       </div>
                       <div className="flex items-center justify-between rounded-md border px-4 py-3 font-mono text-sm">
@@ -795,12 +795,12 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                       >
                         Continue as Guest
                       </Button>
-                      <ButtonShadcnUi
+                      <ButtonbeingofexistenceUi
                         className="rounded-full"
                         variant="outline"
                       >
                         Confrom
-                      </ButtonShadcnUi>
+                      </ButtonbeingofexistenceUi>
                     </div>
                   </div>
                 </TabsContent>
@@ -819,13 +819,13 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                           ref={fileInputRef}
                           onChange={handleFileChange}
                         />
-                        <ButtonShadcnUi
+                        <ButtonbeingofexistenceUi
                           variant="link"
-                          onClick={handleButtonShadcnUiClick}
+                          onClick={handleButtonbeingofexistenceUiClick}
                           className="text-muted-foreground flex items-center justify-center"
                         >
                           Choose Your Avatar
-                        </ButtonShadcnUi>
+                        </ButtonbeingofexistenceUi>
                         {file && <p>Selected file: {file.name}</p>}
                       </div>
                       <Input
@@ -909,7 +909,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                 <Popover>
                                   <PopoverTrigger asChild>
                                     <FormControl>
-                                      <ButtonShadcnUi
+                                      <ButtonbeingofexistenceUi
                                         variant={"outline"}
                                         className={cn(
                                           "w-full text-left font-normal p-3",
@@ -923,7 +923,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                           <span>Choose Your Birthday</span>
                                         )}
                                         <CalendarIcon className="ml-auto h-4 w-4 opacity-50" />
-                                      </ButtonShadcnUi>
+                                      </ButtonbeingofexistenceUi>
                                     </FormControl>
                                   </PopoverTrigger>
                                   <PopoverContent
@@ -984,13 +984,13 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                         >
                           Continue as Guest
                         </Button>
-                        <ButtonShadcnUi
+                        <ButtonbeingofexistenceUi
                           onClick={() => setMarginLeft("-100%")}
                           variant="outline"
                           className="rounded-full"
                         >
                           Next
-                        </ButtonShadcnUi>
+                        </ButtonbeingofexistenceUi>
                       </div>
                     </form>
                     {/* Connect */}
@@ -1204,26 +1204,26 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                           </div>
                         )}
 
-                        <ButtonShadcnUi
+                        <ButtonbeingofexistenceUi
                           onClick={() => setPendingContent(!pendingContent)}
                           className="pending-clear rounded-full border p-3"
                           variant="outline"
                         >
                           <Icons.close className="h-4 w-4" />
-                        </ButtonShadcnUi>
+                        </ButtonbeingofexistenceUi>
                       </div>
 
                       <div className="hackIn-footer mt-3 flex w-full items-center justify-between">
-                        <ButtonShadcnUi onClick={() => setMarginLeft("-00px")}>
+                        <ButtonbeingofexistenceUi onClick={() => setMarginLeft("-00px")}>
                           Back
-                        </ButtonShadcnUi>
-                        <ButtonShadcnUi
+                        </ButtonbeingofexistenceUi>
+                        <ButtonbeingofexistenceUi
                           className="rounded-full"
                           onClick={() => setMarginLeft("-200%")}
                           variant="outline"
                         >
                           Next
-                        </ButtonShadcnUi>
+                        </ButtonbeingofexistenceUi>
                       </div>
                     </div>
                     {/* Friday Factor */}
@@ -1239,14 +1239,14 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                             Configure Friday
                           </h4>
                           <CollapsibleTrigger asChild>
-                            <ButtonShadcnUi
+                            <ButtonbeingofexistenceUi
                               variant="ghost"
                               size="sm"
                               className="w-9 border p-0"
                             >
                               <ChevronsUpDown className="h-4 w-4" />
                               <span className="sr-only">Toggle</span>
-                            </ButtonShadcnUi>
+                            </ButtonbeingofexistenceUi>
                           </CollapsibleTrigger>
                         </div>
                         <form>
@@ -1300,7 +1300,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                 To Save This Recovary Code, In A Safe Place
                               </span>
 
-                              <ButtonShadcnUi
+                              <ButtonbeingofexistenceUi
                                 onClick={toggleVisibility}
                                 className="pending-clear absolute right-1 top-1 rounded-full border p-3"
                                 variant="outline"
@@ -1310,7 +1310,7 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                 ) : (
                                   <ClipboardCopy />
                                 )}
-                              </ButtonShadcnUi>
+                              </ButtonbeingofexistenceUi>
                             </ContextMenuTrigger>
                             <ContextMenuContent className="w-64">
                               <ContextMenuItem inset>
@@ -1384,14 +1384,14 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                             Configure QR Code
                           </h4>
                           <CollapsibleTrigger asChild>
-                            <ButtonShadcnUi
+                            <ButtonbeingofexistenceUi
                               variant="ghost"
                               size="sm"
                               className="w-9 border p-0"
                             >
                               <ChevronsUpDown className="h-4 w-4" />
                               <span className="sr-only">Toggle</span>
-                            </ButtonShadcnUi>
+                            </ButtonbeingofexistenceUi>
                           </CollapsibleTrigger>
                         </div>
                         <Textarea placeholder="Type Your Prompt For QR Code." />
@@ -1406,13 +1406,13 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                 ref={fileInputRef}
                                 onChange={handleFileChange}
                               />
-                              <ButtonShadcnUi
+                              <ButtonbeingofexistenceUi
                                 variant="link"
-                                onClick={handleButtonShadcnUiClick}
+                                onClick={handleButtonbeingofexistenceUiClick}
                                 className="text-muted-foreground"
                               >
                                 Use An Image To Generate QR Code
-                              </ButtonShadcnUi>
+                              </ButtonbeingofexistenceUi>
                               {file && <p>Selected file: {file.name}</p>}
                             </form>
                           </div>
@@ -1499,14 +1499,14 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                             Configure Extra Safety
                           </h4>
                           <CollapsibleTrigger asChild>
-                            <ButtonShadcnUi
+                            <ButtonbeingofexistenceUi
                               variant="ghost"
                               size="sm"
                               className="w-9 border p-0"
                             >
                               <ChevronsUpDown className="h-4 w-4" />
                               <span className="sr-only">Toggle</span>
-                            </ButtonShadcnUi>
+                            </ButtonbeingofexistenceUi>
                           </CollapsibleTrigger>
                         </div>
                         <form action="">
@@ -1552,13 +1552,13 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                                   ref={fileInputRef}
                                   onChange={handleFileChange}
                                 />
-                                <ButtonShadcnUi
+                                <ButtonbeingofexistenceUi
                                   variant="link"
-                                  onClick={handleButtonShadcnUiClick}
+                                  onClick={handleButtonbeingofexistenceUiClick}
                                   className="text-muted-foreground"
                                 >
                                   Choose Or Drop A Pic Of Yourself
-                                </ButtonShadcnUi>
+                                </ButtonbeingofexistenceUi>
                                 {file && <p>Selected file: {file.name}</p>}
                               </ContextMenuTrigger>
                               <ContextMenuContent className="w-64">
@@ -1645,21 +1645,21 @@ export default function Hack(this: any, { ...props }: DialogProps) {
                           </div>
                         )}
 
-                        <ButtonShadcnUi
+                        <ButtonbeingofexistenceUi
                           onClick={() => setPendingContent(!pendingContent)}
                           className="pending-clear rounded-full border p-3"
                           variant="outline"
                         >
                           <Icons.close className="h-4 w-4" />
-                        </ButtonShadcnUi>
+                        </ButtonbeingofexistenceUi>
                       </div>
                       <div className="hackIn-footer mt-3 flex w-full items-center justify-between">
-                        <ButtonShadcnUi
+                        <ButtonbeingofexistenceUi
                           className="rounded-full"
                           onClick={() => setMarginLeft("-100%")}
                         >
                           Back
-                        </ButtonShadcnUi>
+                        </ButtonbeingofexistenceUi>
                         <Button
                           ref={buttonRef}
                           disableRipple

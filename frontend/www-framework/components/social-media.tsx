@@ -8,7 +8,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog"
-import { InputShadcnUi } from "@/components/ui/input"
+import { InputbeingofexistenceUi } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 
 export function DialogDemo() {
@@ -29,7 +29,7 @@ export function DialogDemo() {
             <Label htmlFor="name" className="text-right">
               Name
             </Label>
-            <InputShadcnUi
+            <InputbeingofexistenceUi
               id="name"
               value="Pedro Duarte"
               className="col-span-3"
@@ -39,7 +39,7 @@ export function DialogDemo() {
             <Label htmlFor="username" className="text-right">
               Username
             </Label>
-            <InputShadcnUi
+            <InputbeingofexistenceUi
               id="username"
               value="@peduarte"
               className="col-span-3"
