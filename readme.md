@@ -6,7 +6,6 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer)
 
 ## folder structure update:
-* final folders list -
 1. ai
 2. algorithm
 3. backend
