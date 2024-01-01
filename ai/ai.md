@@ -14,13 +14,6 @@ so here is the deal:
 13. all-other-dimension
 
 
-
-
-
-
-
-
-
 Sure, here are the types of Artificial Intelligence (AI) classified based on their likeness to the human mind and their functionality:
 
 | Type of AI | Description |
