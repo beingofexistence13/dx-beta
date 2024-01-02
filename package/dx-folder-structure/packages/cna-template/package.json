@@ -1,0 +1,9 @@
+{
+  "name": "cna-template",
+  "version": "5.0.0",
+  "description": "Templates for Create Nuxt App.",
+  "files": [
+    "template"
+  ],
+  "license": "MIT"
+}

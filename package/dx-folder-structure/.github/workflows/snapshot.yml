@@ -1,0 +1,48 @@
+name: snapshots
+
+on: [pull_request]
+
+jobs:
+  ci-and-update-snapshots:
+    runs-on: ubuntu-latest
+    if: ${{ github.actor == 'renovate[bot]' }}
+
+    steps:
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: latest
+
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Cache node_modules
+        id: cache
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: deps-${{ hashFiles(format('{0}{1}', github.workspace, '/yarn.lock')) }}
+
+      - name: Install dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: yarn --frozen-lockfile --non-interactive
+
+      - name: Lint
+        run: yarn lint
+
+      - name: Test with update-snapshots
+        run: AVA_FORCE_CI="not-ci" yarn test:snapshot
+
+      - name: Test
+        run: yarn test
+
+      - name: Commit test snapshots
+        id: auto-commit-action
+        uses: stefanzweifel/git-auto-commit-action@v4.15.0
+        env:
+          HUSKY: 0
+        with:
+          commit_message: "test: update snapshots"
+          file_pattern: "**/*.snap **/*.md"
