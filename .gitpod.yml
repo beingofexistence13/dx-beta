@@ -1,0 +1,5 @@
+tasks:
+  - init: cd frontend/www && npm install -g bun && bun install && bun run build
+    command: bun run dev
+
+
