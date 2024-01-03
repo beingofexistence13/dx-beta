@@ -6,6 +6,11 @@
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/beingofexistence/dx)
 
+  <!-- "workspaces": [
+    "apps/*",
+    "packages/*"
+  ], -->
+  
 ## folder structure update:
 1. ai
 2. algorithm
