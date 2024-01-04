@@ -18,6 +18,7 @@ import MailPage from "@/app/examples/mail/page"
 export default function IndexPage() {
   return (
     <div className="container relative">
+      
       {/* <PageHeader>
         <Announcement />
         <PageHeaderHeading>Build your component library</PageHeaderHeading>
