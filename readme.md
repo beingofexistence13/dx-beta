@@ -10,6 +10,7 @@
     "apps/*",
     "packages/*"
   ], -->
+  <!-- nextui,coder,shadcn-ui,app-playground,pancakeswap-frontnend tailwindcss,dub,material-ui,ant-design,styled-components and sass -->
   
 ## folder structure update:
 1. ai
