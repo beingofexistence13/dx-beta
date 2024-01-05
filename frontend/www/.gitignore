@@ -2,9 +2,9 @@
 
 # dependencies
 /node_modules
+/.contentlayer
 /.pnp
 .pnp.js
-.yarn/install-state.gz
 
 # testing
 /coverage
