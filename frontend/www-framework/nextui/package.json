@@ -48,7 +48,7 @@
     "release": "changeset publish",
     "version:dev": "changeset version --snapshot dev-v2",
     "release:dev": "changeset publish --snapshot --no-git-tag --tag dev-v2",
-    "postinstall": "pnpm --filter @nextui-org/theme build"
+    "postinstall": "husky install && pnpm --filter @nextui-org/theme build"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.5",
