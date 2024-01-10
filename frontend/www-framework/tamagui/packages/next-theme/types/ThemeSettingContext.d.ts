@@ -1,4 +1,0 @@
-/// <reference types="react" />
-import { UseThemeProps } from './UseThemeProps';
-export declare const ThemeSettingContext: import("react").Context<UseThemeProps>;
-//# sourceMappingURL=ThemeSettingContext.d.ts.map
