@@ -1,0 +1,12 @@
+{
+  "name": "@tamagui/cli-color",
+  "version": "1.84.0",
+  "main": "./index.js",
+  "scripts": {
+    "build": "true",
+    "watch": "true"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

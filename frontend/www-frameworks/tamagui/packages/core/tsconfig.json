@@ -1,0 +1,20 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "strict": true,
+  },
+  "exclude": [
+    "./native.d.ts",
+    "./native-test.d.ts",
+    "./types"
+  ],
+  "references": [
+    {
+      "path": "../helpers"
+    },
+    {
+      "path": "../use-force-update"
+    },
+  ]
+}
