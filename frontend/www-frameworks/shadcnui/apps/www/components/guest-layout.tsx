@@ -9,7 +9,7 @@ import { Toaster as NewYorkToaster } from "@/registry/new-york/ui/toaster"
 import { DevMode } from "./dev-mode"
 import { HelloTool } from "./hello-tool"
 import { GuestHeader } from "./guest-header"
-import { TailwindIndicator } from "./tailwind-indicator"
+import { TailwindIndicator } from "./tailwind-indicator-beingofexistence"
 import LandingPage from "./landing-page"
 
 const GuestLayout = () => {

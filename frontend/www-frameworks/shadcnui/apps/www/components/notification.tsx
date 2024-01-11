@@ -5,7 +5,7 @@ import {
     PopoverContent,
     PopoverTrigger,
 } from "@/components/ui/popover"
-import { Icons } from "./icons"
+import { Icons } from "./icons-beingofexistence"
 import { Bell } from "lucide-react"
 
 export function NotificationAction() {

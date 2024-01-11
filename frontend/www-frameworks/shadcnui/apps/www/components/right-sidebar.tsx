@@ -7,6 +7,7 @@ import {
     LogOut,
     Mail,
     MessageSquare,
+    PanelRight,
     Plus,
     PlusCircle,
     Settings,
@@ -30,18 +31,15 @@ import {
     DropdownMenuSubTrigger,
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import { Icons } from "./icons"
+import { Icons } from "./icons-beingofexistence"
 import { Avatar, AvatarFallback, AvatarImage } from "./ui"
 
-export function FridayAction() {
+export function RightSidebar() {
     return (
         <DropdownMenu>
             <DropdownMenuTrigger asChild>
                 <div className="nav-toggles flex h-[35px] w-[35px] items-center justify-center">
-                    <Avatar className="max-h-[20px] max-w-[20px] ">
-                        <AvatarImage src="/friday.png" alt="@beingofexistence" />
-                        <AvatarFallback>F</AvatarFallback>
-                    </Avatar>
+                    <PanelRight className="h-4 w-4" />
                 </div>
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-56">

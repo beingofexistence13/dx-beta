@@ -8,8 +8,7 @@ import { HelloTool } from "./hello-tool";
 import { UserHeader } from "./user-header";
 import { Activitybar } from "./activitybar";
 import Script from "next/script";
-import { TailwindIndicator } from "./tailwind-indicator";
-import { Analytics } from "./pages/analytics";
+import { TailwindIndicator } from "./tailwind-indicator-beingofexistence";
 
 const UserLayout = () => {
   const DevModeSelector = useSelector((state: any) => state.devMode.isDev);
