@@ -31,7 +31,7 @@ import {
     DropdownMenuSubTrigger,
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import { Icons } from "./icons-beingofexistence"
+import { Icons } from "./icons"
 import { Avatar, AvatarFallback, AvatarImage } from "./ui"
 
 export function RightSidebar() {

@@ -38,7 +38,7 @@ const CanvasLoader: React.FC<Props> = ({ canvasRef }) => {
         )
       };
     }
-  }, [canvasRef]);
+  }, [canvasRef, startTime]);
 
   return isLoading ? (
     <div className="image-container glassmorphisum fixed left-0 top-0 min-h-screen w-[100%] rounded-lg border">
