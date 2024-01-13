@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": { "composite": true},
+  "references": [
+    { "path": "../core" },
+    { "path": "../create-context" },
+    { "path": "../stacks" },
+    { "path": "../image" }
+  ]
+}
