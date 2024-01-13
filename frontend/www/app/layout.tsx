@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import '@/ui/globals.css'
+import '../../ui/globals.css'
 import { Redux } from './redux'
 import { Antdesign } from './antdesign'
 import { Nextui } from './nextui'
