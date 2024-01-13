@@ -4,12 +4,15 @@ import { siteConfig } from "../../../config/software"
 import { fontSans } from "@/lib/fonts"
 import { cn } from "@/lib/utils"
 import { ThemeProvider } from "@/components/providers"
-
 import { TailwindIndicator } from "@/components/tailwind-indicator"
 import { ThemeSwitcher } from "@/components/theme-switcher"
 import { Toaster as DefaultToaster } from "@/components/ui/toaster"
 import { Toaster as NewYorkSonner } from "@/components/ui/sonner"
 import { Toaster as NewYorkToaster } from "@/components/ui/toaster"
+import { Redux } from './redux'
+import { Antdesign } from './antdesign'
+import { Nextui } from './nextui'
+import GlobalLayout from '@/components/global-layout'
 
 export const metadata: Metadata = {
   title: {
@@ -27,11 +30,11 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "shadcn",
-      url: "https://shadcn.com",
+      name: "beingofexistence",
+      url: "https://beingofexistence.com",
     },
   ],
-  creator: "shadcn",
+  creator: "beingofexistence",
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -53,7 +56,7 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     images: [siteConfig.ogImage],
-    creator: "@shadcn",
+    creator: "@beingofexistence",
   },
   icons: {
     icon: "/favicon.ico",
@@ -91,16 +94,19 @@ export default function RootLayout({ children }: RootLayoutProps) {
             enableSystem
             disableTransitionOnChange
           >
-            <div vaul-drawer-wrapper="">
-              <div className="relative flex min-h-screen flex-col bg-background">
-
-                <main className="flex-1">{children}</main>
-
-              </div>
-            </div>
+            <Redux>
+              <Antdesign>
+                <Nextui>
+                  <div vaul-drawer-wrapper="">
+                    <div className="relative flex min-h-screen flex-col bg-background">
+                      <main className="flex-1">{children}</main>
+                    </div>
+                  </div>
+                </Nextui>
+              </Antdesign>
+            </Redux>
             <TailwindIndicator />
             <ThemeSwitcher />
-
             <NewYorkToaster />
             <DefaultToaster />
             <NewYorkSonner />

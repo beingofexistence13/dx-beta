@@ -40,13 +40,18 @@
     "@radix-ui/react-toggle-group": "^1.0.4",
     "@radix-ui/react-tooltip": "^1.0.7",
     "@reduxjs/toolkit": "^2.0.1",
+    "@vercel/analytics": "^1.1.1",
     "antd": "^5.12.8",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "cmdk": "^0.2.0",
     "date-fns": "^3.2.0",
-    "embla-carousel-react": "^8.0.0-rc19",
+    "embla-carousel-autoplay": "8.0.0-rc15",
+    "embla-carousel-react": "8.0.0-rc15",
     "framer-motion": "^10.18.0",
+    "geist": "^1.2.1",
+    "jotai": "^2.6.1",
+    "lodash.template": "^4.5.0",
     "lucide-react": "^0.309.0",
     "next": "14.0.4",
     "next-themes": "^0.2.1",
@@ -63,6 +68,7 @@
     "zod": "^3.22.4"
   },
   "devDependencies": {
+    "@types/lodash.template": "^4.5.1",
     "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
@@ -71,6 +77,8 @@
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
     "eslint": "^8",
+    "unist-builder": "3.0.0",
+    "unist-util-visit": "^4.1.2",
     "eslint-config-next": "14.0.4"
   }
 }

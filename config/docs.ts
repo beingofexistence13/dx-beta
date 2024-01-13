@@ -1,4 +1,4 @@
-import { MainNavItem, SidebarNavItem } from "@/types/nav"
+import { MainNavItem, SidebarNavItem } from "./nav"
 
 interface DocsConfig {
   mainNav: MainNavItem[]

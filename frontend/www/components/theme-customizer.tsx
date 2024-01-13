@@ -4,11 +4,11 @@ import * as React from "react"
 import {
   CheckIcon,
   CopyIcon,
-  InfoCircledIcon,
+  CircleIcon,
   MoonIcon,
-  ResetIcon,
+  RepeatIcon,
   SunIcon,
-} from "@radix-ui/react-icons"
+} from "lucide-react"
 import template from "lodash.template"
 import { Paintbrush } from "lucide-react"
 import { useTheme } from "next-themes"
@@ -194,7 +194,7 @@ function Customizer() {
             })
           }}
         >
-          <ResetIcon />
+          <RepeatIcon />
           <span className="sr-only">Reset</span>
         </Button>
       </div>
@@ -204,7 +204,7 @@ function Customizer() {
             <Label className="text-xs">Style</Label>
             <Popover>
               <PopoverTrigger>
-                <InfoCircledIcon className="ml-1 h-3 w-3" />
+                <CircleIcon className="ml-1 h-3 w-3" />
                 <span className="sr-only">About styles</span>
               </PopoverTrigger>
               <PopoverContent
