@@ -50,7 +50,7 @@ const frameworks = [
     },
 ]
 
-const Info = () => {
+const MainInfo = () => {
     const [open, setOpen] = React.useState(false)
     const [value, setValue] = React.useState("")
     const constraintsRef = useRef(null);
@@ -65,7 +65,7 @@ const Info = () => {
 
             <div className="info_main_container relative z-10 mx-auto mt-28 flex max-w-[1200px] flex-col items-center justify-center">
                 {/* FeatureShotcut Rounded Border -  h-12 w-[250px] rounded-full flex flex-row items-center justify-center */}
-                <div className="feature_shotcut_container bg-[--code-foreground]  flex items-center justify-center border hover:text-green-400">
+                <div className="feature_shotcut_container hover:bg-[--code-foreground]  flex items-center justify-center border">
                     <span className="feature_shotcut_text">Introducing Dx asks</span>
                     <ChevronRight />
                 </div>
@@ -97,7 +97,7 @@ const Info = () => {
                                 <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
                             </Button>
                         </PopoverTrigger>
-                        <PopoverContent className="w-[500px] p-0">
+                        <PopoverContent className="p-0">
                             <Command>
                                 <CommandInput placeholder="Search framework..." />
                                 <CommandEmpty>No framework found.</CommandEmpty>
@@ -147,4 +147,4 @@ const Info = () => {
     )
 }
 
-export default Info;
+export default MainInfo;

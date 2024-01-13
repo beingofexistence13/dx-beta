@@ -3,6 +3,7 @@ import '../../../ui/globals.css'
 import { Redux } from './redux'
 import { Antdesign } from './antdesign'
 import { Nextui } from './nextui'
+import GlobalLayout from '@/components/global-layout'
 
 export const metadata: Metadata = {
   title: 'Dx',
@@ -20,7 +21,10 @@ export default function RootLayout({
         <Redux>
           <Antdesign>
             <Nextui>
-              {children}
+              {/* <GlobalLayout /> */}
+              <main>
+                {children}
+              </main>
             </Nextui>
           </Antdesign>
         </Redux>

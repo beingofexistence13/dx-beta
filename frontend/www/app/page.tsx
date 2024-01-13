@@ -6,10 +6,16 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion"
 import { Avatar, AvatarGroup } from "@nextui-org/react";
+import LandingPage from '@/components/landing-page';
 
 export default function Home() {
   return (
-    <main>
+    <div>
+
+      {/* Landing Page */}
+      <LandingPage />
+
+      {/* Ui Frameworks Demonstration */}
       <h1>Dx</h1>
       <section>
         <h5>Shadcn UI</h5>
@@ -53,6 +59,7 @@ export default function Home() {
           <Button type="text">Text Button</Button>
         </Tooltip>
       </section>
-    </main>
+
+    </div>
   )
 }
