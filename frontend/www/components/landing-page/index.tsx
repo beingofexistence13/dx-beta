@@ -5,6 +5,7 @@
 // import Footer from "./footer";
 import MainInfo from "./main-info";
 import MoreInfo from "./more-info";
+import { Navbar } from "./navbar";
 // import ScrollIndicator from "./scroll-indicator";
 // import Scrollbar from "./scrollbar";
 import Whitelistbar from "./whitelistbar";
@@ -16,6 +17,7 @@ const LandingPage = () => {
   return (
     <>
       {/* Sections total 5 */}
+      <Navbar />
       <MainInfo />
       <MoreInfo />
       {/* <FeatureOne />
