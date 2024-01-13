@@ -6,7 +6,7 @@ import { Nextui } from './nextui'
 
 export const metadata: Metadata = {
   title: 'Dx',
-  description: 'Flawless Developer Expreience',
+  description: 'Flawless Developing Expreience',
 }
 
 export default function RootLayout({

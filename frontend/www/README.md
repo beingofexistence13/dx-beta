@@ -4,7 +4,7 @@
 
 bunx shadcn-ui@latest init
 
-bunx shadcn-ui@latest add tooltop toggle-group toggle toast textarea tabs table switch sonner slider skeleton sheet separator select scroll-area resizable radio-group progress popover pagination navigation-menu menubar label input hover-card form dropdown-menu drawer dialogue date-picker data-table context-menu command combobox collapsible checkbox carosel card calendar button badge avater aspect-ratio alert-dialog alert accordion 
+bunx shadcn-ui@latest add tooltip toggle-group toggle toast textarea tabs table switch sonner slider skeleton sheet separator select scroll-area resizable radio-group progress popover pagination navigation-menu menubar label input hover-card form dropdown-menu drawer dialogue date-picker data-table context-menu command combobox collapsible checkbox carosel card calendar button badge avatar aspect-ratio alert-dialog alert accordion 
 
 bun install @nextui-org/react framer-motion antd @ant-design/nextjs-registry
 
