@@ -38,7 +38,7 @@ import {
   PopoverTrigger,
 } from "./ui/popover"
 import { Skeleton } from "./ui/skeleton"
-import { Theme, themes } from "@/registry/themes"
+import { Theme, themes } from "./themes"
 
 import "@/styles/mdx.css"
 import {
