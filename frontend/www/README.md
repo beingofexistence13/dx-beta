@@ -9,7 +9,7 @@ bunx shadcn-ui@latest add tooltop toggle-group toggle toast textarea tabs table 
 bun install @nextui-org/react framer-motion antd @ant-design/nextjs-registry
 
 3. redux:
-bun install react-redux
+bun install react-redux @reduxjs/toolkit
 
 4. previous package.json
 {
