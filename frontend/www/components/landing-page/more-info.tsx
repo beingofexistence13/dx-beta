@@ -1,11 +1,10 @@
 "use client"
 
 import * as React from "react"
-import { motion, useMotionValueEvent, useScroll } from "framer-motion";
-import { useRef } from "react";
+import { motion } from "framer-motion";
 import Image from "next/image"
 import { AspectRatio } from "../ui";
-import jsonData from '../../../../config/landing-page/more-info.json';
+import jsonData from '#/config/landing-page/more-info.json';
 
 
 const MoreInfo = () => {
