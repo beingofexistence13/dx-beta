@@ -2,8 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  .center {
+    @apply flex items-center justify-center;
+  }
+
   :root {
     /* Pathetic Varialbes (LOL) */
     --body-background: rgb(255, 255, 255);
@@ -78,23 +89,7 @@
   }
 }
 
-
-@layer base {
-  * {
-    @apply border-border;
-  }
-
-  body {
-    @apply bg-background text-foreground;
-  }
-
-  .center{
-    @apply flex items-center justify-center;
-  }
-}
-
-/* Dumb Styles */
-
+/* Dumb Styles Need to fix this soon!!! */
 .blurred_container {
   background: rgba(255, 255, 255, 0.33);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -114,10 +109,6 @@ video,
   min-height: 100% !important;
   min-width: 100% !important;
 }
-
-/* .whitelistbar {
-  background-color: var(--code-foreground);
-} */
 
 .whitelistbar::before,
 .whitelistbar::after {

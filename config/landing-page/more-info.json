@@ -1,18 +1,18 @@
 {
     "hardware": {
-      "1": "Miniaturization: Over the years, hardware components have become increasingly smaller, leading to compact and portable devices. This miniaturization has enabled the development of mobile technology, such as smartphones and laptops, which pack powerful processing capabilities into small form factors.",
-      "2": "Increased Processing Power: Advancements in hardware have led to a significant increase in processing power. Modern processors are capable of executing billions of instructions per second, enabling complex computations and supporting high-end applications like machine learning and virtual reality.",
-      "3": "Energy Efficiency: Modern hardware components are designed to be energy-efficient, reducing the amount of power they consume while delivering high performance. This has not only made devices more environmentally friendly but also increased their battery life, enhancing portability."
+      "Miniaturization": "Over the years, hardware components have become increasingly smaller, leading to compact and portable devices. This miniaturization has enabled the development of mobile technology, such as smartphones and laptops, which pack powerful processing capabilities into small form factors.",
+      "Increased Processing Power": "Advancements in hardware have led to a significant increase in processing power. Modern processors are capable of executing billions of instructions per second, enabling complex computations and supporting high-end applications like machine learning and virtual reality.",
+      "Energy Efficiency": "Modern hardware components are designed to be energy-efficient, reducing the amount of power they consume while delivering high performance. This has not only made devices more environmentally friendly but also increased their battery life, enhancing portability."
     },
     "software": {
-      "1": "Increased Interoperability: Modern software systems are designed to work seamlessly with each other. This interoperability has been made possible through the use of standard protocols and interfaces, allowing different software systems to communicate and share data efficiently.",
-      "2": "Artificial Intelligence and Machine Learning: The integration of AI and ML technologies into software systems has revolutionized various fields. These technologies enable software to learn from data, make predictions, and improve over time, leading to more intelligent and automated systems.",
-      "3": "Cloud Computing: The advent of cloud computing has transformed the software landscape. Software applications can now be hosted on the cloud and accessed from anywhere, providing scalability, flexibility, and cost-effectiveness."
+      "Increased Interoperability": "Modern software systems are designed to work seamlessly with each other. This interoperability has been made possible through the use of standard protocols and interfaces, allowing different software systems to communicate and share data efficiently.",
+      "Artificial Intelligence and Machine Learning": "The integration of AI and ML technologies into software systems has revolutionized various fields. These technologies enable software to learn from data, make predictions, and improve over time, leading to more intelligent and automated systems.",
+      "Cloud Computing": "The advent of cloud computing has transformed the software landscape. Software applications can now be hosted on the cloud and accessed from anywhere, providing scalability, flexibility, and cost-effectiveness."
     },
     "cloud": {
-      "1": "Scalability and Flexibility: One of the key advancements in cloud computing is its scalability and flexibility. Cloud services can be scaled up or down to match the needs of the user, providing businesses with flexibility and efficiency in managing their resources.",
-      "2": "Security Improvements: Cloud providers have made significant strides in enhancing security measures, implementing advanced encryption methods, multi-factor authentication, and other security protocols to protect sensitive data.",
-      "3": "Serverless Computing: The advent of serverless computing, where developers can build and run applications without worrying about the underlying infrastructure, is a significant advancement in cloud computing. This allows for faster deployment and efficient utilization of resources."
+      "Scalability and Flexibility": "One of the key advancements in cloud computing is its scalability and flexibility. Cloud services can be scaled up or down to match the needs of the user, providing businesses with flexibility and efficiency in managing their resources.",
+      "Security Improvements": "Cloud providers have made significant strides in enhancing security measures, implementing advanced encryption methods, multi-factor authentication, and other security protocols to protect sensitive data.",
+      "Serverless Computing": "The advent of serverless computing, where developers can build and run applications without worrying about the underlying infrastructure, is a significant advancement in cloud computing. This allows for faster deployment and efficient utilization of resources."
     }
   }
   

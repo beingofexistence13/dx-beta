@@ -4,8 +4,7 @@ import * as React from "react"
 import { motion } from "framer-motion";
 import Image from "next/image"
 import { AspectRatio } from "../ui";
-import jsonData from '#/config/landing-page/more-info.json';
-
+import moreInfoData from '#/config/landing-page/more-info.json';
 
 const MoreInfo = () => {
 
@@ -23,23 +22,28 @@ const MoreInfo = () => {
               />
             </AspectRatio>
           </div>
-          <div className="h-full lg:w-[500px] flex flex-col items-start justify-center space-y-3">
-            {Object.entries(jsonData.hardware).map(([key, value]) => (
-              <p className="min-h-[250px] w-full border rounded-md p-3 text-start" key={key}> <span className="center rounded-full border p-3">{key}</span> {value}</p>
+          <div className="h-full lg:w-[500px] flex flex-col items-start justify-between">
+            {Object.entries(moreInfoData.hardware).map(([key, value]) => (
+              <div className="min-h-[250px] w-full border rounded-md p-5 text-start flex items-center justify-start flex-col space-y-3" key={key}>
+                <span className="center rounded-sm border p-3 w-full">{key}</span>
+                <span>{value}</span>
+              </div>
             ))}
           </div>
-
           <motion.div
             drag
-            className="blurry_gradient_hardware absolute bottom-0 right-0 z-[0] h-[550px] w-[550px] rounded-full">
+            className="blurry_gradient_hardware absolute bottom-0 right-0 z-[0] h-[250px] w-[250px] rounded-full">
           </motion.div>
         </div>
         <div className="software relative flex h-auto w-full flex-row items-start justify-center space-x-3">
-          <span className="more_info_description z-10 h-auto w-[500px] rounded-md border p-3 text-start">
-            Software:Computer hardware is a collective term used to describe any of the physical components of an analog or digital computer.
-            The term hardware distinguishes the tangible aspects of a computing device from software, which consists of written, machine-readable instructions
-            or programs that tell physical components what to do and when to execute the instructions.
-          </span>
+          <div className="h-full lg:w-[500px] flex flex-col items-start justify-between">
+            {Object.entries(moreInfoData.software).map(([key, value]) => (
+              <div className="min-h-[250px] w-full border rounded-md p-5 text-start flex items-center justify-start flex-col space-y-3" key={key}>
+                <span className="center rounded-sm border p-3 w-full">{key}</span>
+                <span>{value}</span>
+              </div>
+            ))}
+          </div>
           <div className="more_info_image h-[800px] w-[500px] border">
             <AspectRatio ratio={1 / 1} className="bg-muted h-[800px] w-[500px] rounded-lg">
               <Image
@@ -50,10 +54,9 @@ const MoreInfo = () => {
               />
             </AspectRatio>
           </div>
-
           <motion.div
             drag
-            className="blurry_gradient_software absolute bottom-0 left-0 z-[0] h-[550px] w-[550px] rounded-full">
+            className="blurry_gradient_software absolute bottom-0 left-0 z-[0] h-[250px] w-[250px] rounded-full">
           </motion.div>
         </div>
         <div className="cloud relative flex h-auto w-full flex-row items-start justify-center space-x-3">
@@ -67,14 +70,17 @@ const MoreInfo = () => {
               />
             </AspectRatio>
           </div>
-          <span className="more_info_description z-10 h-auto w-[500px] rounded-md border p-3 text-start">
-            Cloud:Computer hardware is a collective term used to describe any of the physical components of an analog or digital computer.
-            The term hardware distinguishes the tangible aspects of a computing device from software, which consists of written, machine-readable instructions
-            or programs that tell physical components what to do and when to execute the instructions.
-          </span>
+          <div className="h-full lg:w-[500px] flex flex-col items-start justify-between">
+            {Object.entries(moreInfoData.cloud).map(([key, value]) => (
+              <div className="min-h-[250px] w-full border rounded-md p-5 text-start flex items-center justify-start flex-col space-y-3" key={key}>
+                <span className="center rounded-sm border p-3 w-full">{key}</span>
+                <span>{value}</span>
+              </div>
+            ))}
+          </div>
           <motion.div
             drag
-            className="blurry_gradient_cloud absolute bottom-0 right-0 z-[0] h-[550px] w-[550px] rounded-full">
+            className="blurry_gradient_cloud absolute bottom-0 right-0 z-[0] h-[250px] w-[250px] rounded-full">
           </motion.div>
         </div>
       </div>

@@ -8,11 +8,11 @@ import React from "react";
 const LandingPage = () => {
   return (
     <>
-      <Navbar />
-      <MainInfo />
+      {/* <Navbar /> */}
+      {/* <MainInfo /> */}
       <MoreInfo />
 
-      <Whitelistbar />
+      {/* <Whitelistbar /> */}
     </>
   );
 };
