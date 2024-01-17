@@ -1,6 +1,3 @@
-// {
-//   "extends": "next/core-web-vitals"
-// }
 {
   "$schema": "https://json.schemastore.org/eslintrc",
   "root": true,
@@ -18,10 +15,7 @@
   "settings": {
     "tailwindcss": {
       "callees": ["cn", "cva"],
-      "config": "tailwind.config.cjs"
-    },
-    "next": {
-      "rootDir": ["apps/*/"]
+      "config": "tailwind.config.ts"
     }
   },
   "overrides": [
