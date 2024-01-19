@@ -6,7 +6,7 @@ important tabs in the browser:
 1. [Ant Design](https://ant.design/components/overview) - design patterns......
 1. [Lucide React Icons](https://lucide.dev/icons/?focus) - icons I use.........
 
-Sure, here's a table summarizing some of the most advanced, highest paying, and challenging topics in software engineering:
+## Advanced Software Engineering Topics (2024)
 | Topic | Description | Average Salary⁹[^10^] | Difficulty¹² |
 | --- | --- | --- | --- |
 | **Artificial Intelligence (AI)** | AI is a driving force behind innovation in software engineering. It simulates human intelligence and automates tasks⁵. | High | High |
@@ -19,7 +19,6 @@ Sure, here's a table summarizing some of the most advanced, highest paying, and 
 | **Requirement Volatility** | This refers to the unpredictability of project requirements and the need for constant clarification¹². | High | High |
 | **Limited Budget and Resources** | This refers to the constraints in time and budget that often occur in software engineering projects¹². | High | High |
 
-## Advanced Software Engineering Topics (2024)
 | **Topic** | **Description** | **Difficulty** | **Salary Range** | **Demand** | **Example Industries** |
 |---|---|---|---|---|---|
 | **Formal Methods** | Mathematical techniques for verifying & validating software | High | $120k+ | Moderate | Avionics, Healthcare, Finance |
@@ -78,11 +77,6 @@ In this project I am trying to build a platform to make developer experience (as
 9. dx-algorithm [🚀 dx/algorithm is a groundbreaking project led by an experienced software developer. 🧠 This project is dedicated to addressing a broad spectrum of algorithm-related challenges. 💡 With a strong commitment to open-source principles, dx/algorithm is poised to make significant contributions to the field of algorithms and impact the global tech community. 🌐]
 
 10. dx-paymentflow[ will provide you all payment dealing providers -> https://github.com/beingofexistence/dx-paymentflow.git (status:FAR_FROM_COMPLETED)]
-
-
-
-
-
 
 # OpenSource Cloning / Stealling
 Dx has used many other opensource github repoes in it.This is not waste of time cause that repoes are fetced automaticlly by Terminalflow and this repoes is used probably in the best way possible by maintaing their copyrights after their repective owners.I used other repoes cause Dx aims to do a lot of things besides + up + down and every way around WWW INTERNET stuffts(not native cause that problem has its own solution guess the unique name would be,,,okay okay.. donot bottheer -> DX Native -I know such a uniqe name "I know I am best at naming stuffs" [And I am too lazy so donot expect me to put logo or link to that website here do it by yourself(Ninja Tecnic For Rankning Searh In Google Search --- and I beg you please go to Dx Native ignoring my bad joke)]).
@@ -300,12 +294,6 @@ bun start
 
 I hope these brought a smile to your face! 😊
 
-<div align="center">
-    <a href="https://dx-emon-beingofexistence-shohan.vercel.app/">
-        <img src="https://github.com/beingofexistence/dx/assets/103621682/0228bb42-3520-4bb9-9eb1-67704866dfa3" width="300"/>
-    </a>
-</div>
-
 ## License
 Licensed under the [MIT license](https://github.com/beingofexistence/dx/blob/main/LICENSE.md).
 This project contains the main features of the dx application.
@@ -321,9 +309,13 @@ Keep watching cat videos + Saturo Gojo will definitely return after 236 chapter 
 1. pipdream
 2. never give up
 
+<div align="center">
+    <a href="https://dx-emon-beingofexistence-shohan.vercel.app/">
+        <img src="https://github.com/beingofexistence13/dx/assets/103621682/0228bb42-3520-4bb9-9eb1-67704866dfa3" width="300"/>
+    </a>
+</div>
 
   <!-- 
-  
 ![New_Recording_-_12_29_2023,_12_29_29_AM (online-video-cutter com) (1)](https://github.com/beingofexistence/dx/assets/154454486/46d54fca-97b3-4113-8015-fd8bd270ef55)
 ![undefined-high](https://github.com/beingofexistence/dx/assets/154454486/e8865b05-bc54-498b-afa0-f221a0cba365)
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/beingofexistence/dx)
