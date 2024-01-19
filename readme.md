@@ -1,5 +1,11 @@
 # Dx!!!
 
+<div align="center">
+    <a href="https://dx-emon-beingofexistence-shohan.vercel.app/">
+        <img src="https://github.com/beingofexistence13/dx/assets/103621682/0228bb42-3520-4bb9-9eb1-67704866dfa3" width="300"/>
+    </a>
+</div>
+
 important tabs in the browser:
 1. [Shadcn UI](https://ui.shadcn.com/docs/components/accordion) - beatifully...
 1. [Next UI](https://nextui.org/docs/components/avatar) - regardless of your...
@@ -309,13 +315,7 @@ Keep watching cat videos + Saturo Gojo will definitely return after 236 chapter 
 1. pipdream
 2. never give up
 
-<div align="center">
-    <a href="https://dx-emon-beingofexistence-shohan.vercel.app/">
-        <img src="https://github.com/beingofexistence13/dx/assets/103621682/0228bb42-3520-4bb9-9eb1-67704866dfa3" width="300"/>
-    </a>
-</div>
-
-  <!-- 
+<!-- 
 ![New_Recording_-_12_29_2023,_12_29_29_AM (online-video-cutter com) (1)](https://github.com/beingofexistence/dx/assets/154454486/46d54fca-97b3-4113-8015-fd8bd270ef55)
 ![undefined-high](https://github.com/beingofexistence/dx/assets/154454486/e8865b05-bc54-498b-afa0-f221a0cba365)
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/beingofexistence/dx)
